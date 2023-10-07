@@ -5,15 +5,15 @@ body {
 }
 
 h1 {
-    color: #333333;
+    color: #000000;
     font-style: bold;
     border-radius: 15px;
 }
 
 h2 {
-    color: #575757;
+    color: #000000;
     font-weight: normal;
-    border-bottom: 5px dashed #575757;
+    border-bottom: 5px dashed #000000;
 }
 
 p {
@@ -21,31 +21,21 @@ p {
     line-height: 1.5em;
 }
 
-div {
-    color: #333333;
+.subtitle {
+    color: #000000;
     font-size: 12px;
     font-style: italic;
 }
 
-blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+.stats {
+    color: #ff0000;
+    font-style: bold;
 }
 
-blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-}
-
-img {
-    border-radius: 8px;
+.critic_quote {
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
 }
 
 ol {
@@ -56,13 +46,21 @@ ul {
     padding-left: 15px;
 }
 
+ul:first-of-type {
+    font-size: 12px;
+}
+
+ul:last-of-type {
+    font-style: italic;
+}
+
+footer:last-child {
+    font-style: italic;
+}
+
 a {
     color: #1100ff;
     text-decoration: underline;
 }
 
 a:hover { color: #8e00cb; };
-
-a:visited { color: #b6b6b6; }
-
-a:active { color: #ff0000; }
