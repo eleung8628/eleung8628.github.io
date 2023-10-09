@@ -50,13 +50,14 @@ header, footer, .lead {
     justify-content: space-around;
     flex-wrap: wrap;
     padding-left: 0;
-    flex-grow: 1;
+    flex-grow: 3;
 }
 
 ul.flowing-boxes li {
     flex-basis: 200px;
     list-style-type: none;
     border-style: dashed;
+    padding-bottom: 5px;
     background-color: #d3d2d2; 
 }
 
