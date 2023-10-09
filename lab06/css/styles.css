@@ -40,9 +40,20 @@ header, footer, .lead {
     padding-right: 10px
 }
 
-.lead-content, .lead-img {
-    margin: 3px;
-    padding-left: 15px;
+.flowing-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+ul.flowing-boxes li {
+    flex-basis: 200px;
+    list-style-type: none;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d3d2d2; 
 }
 
 article, aside {
