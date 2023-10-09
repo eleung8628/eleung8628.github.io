@@ -42,13 +42,12 @@ header, footer, .lead {
 
 .lead-img {
     float: left;
-    padding-right: 10px;
     margin-right: 10px;
 }
 
 .flowing-boxes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-left: 0;
 }
@@ -61,8 +60,6 @@ ul.flowing-boxes li {
     padding-right: 10px;
     border-style: dashed;
     background-color: #d3d2d2; 
-    justify-content: space-around;
-    gap: 10px;
 }
 
 article, aside {
