@@ -43,6 +43,7 @@ header, footer, .lead {
 .lead-img {
     float: left;
     padding-right: 10px;
+    margin-right: 10px;
 }
 
 .flowing-boxes {
