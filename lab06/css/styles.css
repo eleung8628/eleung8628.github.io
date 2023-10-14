@@ -49,6 +49,7 @@ header, footer, .lead {
 .flowing-boxes {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding-left: 0;
     flex-grow: 3;
