@@ -41,7 +41,7 @@ header, footer, .lead {
 }
 
 .lead p {
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -54,10 +54,8 @@ header, footer, .lead {
 .flowing-boxes {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
     flex-wrap: wrap;
     padding-left: 0;
-    flex-grow: 3;
     gap: 10px;
 }
 
