@@ -40,6 +40,11 @@ header, footer, .lead {
     padding-right: 10px
 }
 
+.lead p {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .lead-img {
     float: left;
     margin-right: 10px;
