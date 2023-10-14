@@ -43,6 +43,7 @@ header, footer, .lead {
 .lead-img {
     float: left;
     margin-right: 10px;
+    border: 5px dashed #000000;
 }
 
 .flowing-boxes {
@@ -51,6 +52,7 @@ header, footer, .lead {
     flex-wrap: wrap;
     padding-left: 0;
     flex-grow: 3;
+    gap: 10px;
 }
 
 ul.flowing-boxes li {
