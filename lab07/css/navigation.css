@@ -4,6 +4,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    color: white;
 }
 
 .menu ul li {
@@ -20,4 +21,11 @@
 
 .menu ul li a:hover {
     background-color: #111;
-  }
+    color: white;
+}
+
+.menu a.is-current {
+    background-color: #fff700;
+    color:#111;
+    font-weight: bold;
+}
