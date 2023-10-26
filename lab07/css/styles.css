@@ -29,7 +29,7 @@ p {
     max-width: 1000px;
 }
 
-header, footer, .lead {
+header, footer, .lead, nav {
     grid-column: 1 / 3;
 }
 
