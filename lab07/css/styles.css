@@ -24,7 +24,6 @@ p {
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    float: center;
     margin: 0 auto;
     width: 90%;
     max-width: 1000px;
