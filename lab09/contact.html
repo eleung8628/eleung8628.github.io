@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 09 - HTML Forms</title>
+	</head>
+	
+	<body>
+        <h1>HTML Forms</h1>
+        <form method="post" action="#h">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="age">Age:</label><br>
+            <input type="text" id="age" name="age"><br><br>
+
+            <fieldset>
+                <legend>Looking Bee-yond</legend>
+
+                <h2>Which of the following bee facts did you know already?</h2>
+                <input type="checkbox" id="fact1" name="fact1" value="Pollen">
+                <label for="fact1"> 90% of plants rely on bee pollen</label><br>
+                <input type="checkbox" id="fact2" name="fact2" value="Hives">
+                <label for="fact2"> Bees have hives/nests underground</label><br>
+                <input type="checkbox" id="fact3" name="fact3" value="Wings">
+                <label for="fact3"> Bees have 4 wings</label><br>
+                <input type="checkbox" id="fact4" name="fact4" value="Dance">
+                <label for="fact4"> Bees can dance to communicate</label><br>
+                
+                <h2>How would you rate The Bee Movie?</h2>
+                <input type="radio" id="best" name="rating" value="BEST">
+                <label for="BEST">BEE-ST MOVIE EVER!</label><br>
+                <input type="radio" id="good" name="rating" value="good">
+                <label for="good">I'd give it a B</label><br>
+                <input type="radio" id="bad" name="rating" value="bad">
+                <label for="bad">It's pretty b(ee)ad</label><br>
+                <input type="radio" id="worst" name="rating" value="worst">
+                <label for="worst">The Bee Movie SUCKS!</label><br>
+                <input type="radio" id="na" name="rating" value="never-seen">
+                <label for="never-seen">Never seen it bee-fore</label><br><br>
+            </fieldset>
+
+            <p><label for="favorite">Favorite Part of the Movie (or N/A):</label></p>
+            <textarea id="favorite" name="favorite" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Buzz In">
+        </form>
+    </body>
