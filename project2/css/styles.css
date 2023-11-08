@@ -2,30 +2,32 @@ body {
     background-color: rgb(56, 59, 61); 
     color: #f8f8f8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
 h1 {
-    font-weight: bolder;
-    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
     text-align: center;
     text-shadow: 3px 3px rgb(0, 0, 0);
-    padding-top: 25px;
-    height: 95px;
+    height: 125px;
     background-image: url('../images/pokemon_header_img.jpg');
 }
 
 .overview {
     font-size: 11px;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 
 h2 {
     font-weight: bold;
     border-bottom: 3px solid rgb(111, 195, 117);
-    background-image: url('../images/bee_logo.png');
+    background-image: url('../images/celebi_bp.png');
     background-repeat: no-repeat;
     background-position: center left;
-    padding-left: 38px;
-    padding-bottom: 2px;
+    padding-left: 45px;
+    padding-bottom: 9px;
 }
 
 h3 {
@@ -35,9 +37,21 @@ h3 {
     padding-top: 3px;
 }
 
+h4 {
+    text-decoration: underline;
+}
+
 p {
     margin-top: 1px;
     line-height: 1.5em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .container {
@@ -56,20 +70,64 @@ p {
     grid-column: 2;
 }
 
+img {
+    float: left;
+    padding-right: 9px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(71, 75, 78);
+}
+
+table td, table th {
+    border: 6px solid rgb(56, 59, 61);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(95, 166, 100); 
+}
+  
+table tr:first-child th {
+    border-top: 0;
+}
+  
+table tr:last-child td {
+    border-bottom: 0;
+}
+  
+table tr td:first-child,
+  table tr th:first-child {
+    border-left: 0;
+}
+  
+table tr td:last-child,
+  table tr th:last-child {
+    border-right: 0;
+}
+
+table tr:hover {background-color:rgb(56, 58, 59);}
+
 ol {
-    padding-left: 15px;
+    list-style-type: upper-roman;
+    border-collapse: collapse;
+    background-color: rgb(56, 59, 61);
+    padding-right: 12px;
 }
 
-ul {
-    padding-left: 15px;
-}
-
-ul:first-of-type {
-    font-size: 12px;
-}
-
-ul:last-of-type {
-    font-style: italic;
+ol li {
+    border: 3px solid rgb(56, 59, 61);
+    padding-left: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(71, 75, 78);
 }
 
 footer:last-child {
@@ -77,10 +135,10 @@ footer:last-child {
 }
 
 a {
-    color: #1100ff;
+    color: white;
     text-decoration: underline;
 }
 
 a:hover { 
-    color: #8e00cb; 
+    color: #d1bd6d; 
 }
