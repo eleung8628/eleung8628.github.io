@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     text-shadow: 3px 3px rgb(0, 0, 0);
     height: 125px;
+    margin: 0px;
     margin-bottom: 24px;
     background-image: url('../images/pokemon_header_img.jpg');
 }
