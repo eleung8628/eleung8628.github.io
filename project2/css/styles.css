@@ -1,5 +1,5 @@
 body { 
-    background-color: rgb(56, 59, 61); 
+    background-color: #383b3d; 
     color: #f8f8f8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     text-shadow: 3px 3px rgb(0, 0, 0);
     height: 125px;
+    margin-bottom: 24px;
     background-image: url('../images/pokemon_header_img.jpg');
 }
 
